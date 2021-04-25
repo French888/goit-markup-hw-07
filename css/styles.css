@@ -481,6 +481,15 @@ p {
   appearance: none;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-pad {
+  padding-top: 0;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
