@@ -5,10 +5,10 @@
   .work__item{
     width: 370px;
     margin-right: 30px;
-  }
-  
-  .work__item:last-child{
-    margin-right: 0;
+
+  &:last-child{
+      margin-right: 0;
+    }
   }
   
   .product-thumb{

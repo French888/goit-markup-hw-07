@@ -6,7 +6,7 @@
   .address{
     display: flex;
     flex-direction: column;
-    color:var(--mail-tel-color);
+    color:var(--page-title-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -42,10 +42,12 @@
     text-align: left;
     text-transform: uppercase ;
     color: var(--page-title-color);
+    
+    &--pos{
+      margin-bottom: 20px;
+    }
   }
-  .footer__title--pos{
-    margin-bottom: 20px;
-  }
+  
   .social-icon--colorbg{
   background: var(--icon-bg-color-footer);
   }

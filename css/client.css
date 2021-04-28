@@ -15,9 +15,18 @@
   transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1), fill 500ms cubic-bezier(0.4, 0, 0.2, 1), background-color 500ms cubic-bezier(0.4, 0, 0.2, 1), border-color 500ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.client-icon__link:hover .client-icon__icon,
+.client-icon__link:focus .client-icon__icon {
+  fill: var(--accent-color-hover);
+}
+
 .client-icon__link .client-icon__icon {
   fill: var(--client-logo-color);
   transition: fill var(--animation);
+}
+
+.client-icon__link:hover, .client-icon__link:focus {
+  border: 1px solid var(--accent-color-hover);
 }
 
 .client-icon__item {
@@ -26,15 +35,5 @@
 
 .client-icon__item:first-child {
   margin-left: 0;
-}
-
-.client-icon__link:hover .client-icon__icon,
-.client-icon__link:focus .client-icon__icon {
-  fill: var(--accent-color-hover);
-}
-
-.client-icon__link:hover,
-.client-icon__link:focus {
-  border: 1px solid var(--accent-color-hover);
 }
 /*# sourceMappingURL=client.css.map */
